@@ -1,0 +1,42 @@
+body {
+    background: #c7b9ff;
+    height: 100vh;
+    flex-direction: column;    
+}
+
+/* utility classes */
+.flex {
+    display: flex;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.shadow {
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.br-10 {
+    border-radius: 10px;    
+}
+
+/* end of utility classes */
+
+.container {
+    flex-direction: column;
+}
+
+.logo {
+    height: 100px;
+    border-radius: 50%;
+}
+
+.link {
+    margin: 0.5rem;
+    background: whitesmoke;
+}
